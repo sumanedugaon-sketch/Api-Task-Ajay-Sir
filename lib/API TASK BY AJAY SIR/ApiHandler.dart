@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 
 class ApiHandler {
   // String apiUrl = 'https://jsonplaceholder.typicode.com/posts';
-  String apiUrl = 'https://jsonplaceholder.typicode.com/users';
+  String apiUrl = 'https://jsonplaceholder.typicode.com/posts';
 
   Future<List<PostModel>> fetchData() async {
     final response = await http.get(Uri.parse(apiUrl));
@@ -17,3 +17,5 @@ class ApiHandler {
     }
   }
 }
+
+

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_task/API%20TASK%20BY%20AJAY%20SIR/Post_Model.dart';
 
 import 'ApiHandler.dart';
+import 'Post_Model.dart';
 
 class PostScreen extends StatelessWidget {
   const PostScreen({super.key});

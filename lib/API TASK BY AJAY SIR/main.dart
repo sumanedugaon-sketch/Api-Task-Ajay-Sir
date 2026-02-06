@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_task/API%20TASK%20BY%20AJAY%20SIR/Post_Screen.dart';
 
-import 'Post_Screen.dart';
 
 void main(){
   runApp(MyApp());
